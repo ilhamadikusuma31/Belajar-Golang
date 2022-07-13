@@ -3,23 +3,13 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("string")
-	fmt.Println("")
-	var namaku string
-	namaku = "ilhamadi"
-	fmt.Println(namaku)
-	namaku = "ADI"
-	fmt.Println(namaku)
-	fmt.Println("")
-	fmt.Println("kita bisa melakukan inisialisasi tanpa deklarasi")
-	negara := "indonesia"
-	fmt.Println(negara)
+	const phi float32 = 3.14
+	const percepatan = 9.8 //tanpa type data bisa
+	fmt.Println(phi)
+	fmt.Println(percepatan)
 
-	var (
-		nama_depan    = "ilham"
-		nama_belakang = "adikusuma"
+	const (
+		nama  = "ilham"
+		prodi = "informatika"
 	)
-
-	fmt.Println(nama_depan)
-	fmt.Println(nama_belakang)
 }
