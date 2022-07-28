@@ -8,11 +8,11 @@ import (
 func cek(answer string) string {
 	if answer[0] == 'i' || answer[0] == 'I' && answer[len(answer)-1] == 'n' || answer[len(answer)-1] == 'N' {
 		if strings.Contains(answer[1:len(answer)-1], "a") {
-			return "Found"
+			return "Found!"
 		}
 	}
 
-	return "Not Found"
+	return "Not Found!"
 }
 
 func main() {
