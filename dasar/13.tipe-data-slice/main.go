@@ -20,7 +20,7 @@ func main() {
 	fmt.Println("ori    : ", bulan)
 	fmt.Println("slice 1: ", slice1)
 	fmt.Println("slice 2: ", slice2)
-	fmt.Println("slice 3: ", slice3)
+	fmt.Println("slice 3.concurency-in-go: ", slice3)
 
 	fmt.Println("\nMake Slice")
 	//                    arr,len,cap
